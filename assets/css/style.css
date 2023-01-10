@@ -1,15 +1,111 @@
 @charset "UTF-8";
 
-:root {
-   --cor01: #ed1b1b;
-   --cor02: #2369e3;
-   --cor03: #063d1e;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+/* 100 [...] 900 ; NO ITALIC */
 
-   --font-padrao: 'Bebas Neue', cursive;
+:root {
+   --cor01: #079DD9;
+   --cor02: #04B2D9;
+   --cor03: #BAD94A;
+   --cor04: #A7BF4E;
+   --cor05: #232426;
+
+   --font-padrao: 'Montserrat', sans-serif;
 }
 
 * {
    margin: 0px;
    padding: 0px;
    box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+   min-width: 100vh;
+   font-family: var(--font-padrao);
+}
+
+section.home {
+   width: 100%;
+   min-height: 100vh;
+   background-image: url(../images/bg-home\ -\ Editado.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   gap: 100px;
+}
+section.home > header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+section.home > header > aside.image-logo {
+   width: 200px;
+   height: 200px;
+   padding: 20px 20px 40px 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+section.home > header > aside.image-logo > img {
+   width: 100%;
+}
+section.home > nav {
+   width: 100%;
+   height: auto;
+}
+section.home > header > nav > ul {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+}
+section.home > header > nav > ul > li,a {
+   color: white;
+   text-decoration: none;
+   cursor: pointer;
+   transition: .3s;
+}
+section.home > header > nav > ul > li:hover {
+   transform: scale(110%);
+}
+section.home > aside.faça-parte {
+   width: 100%;
+   height: 200px;
+   padding: 10px;
+   text-align: center;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+section.home > aside.faça-parte > h1 {
+   margin-bottom: 75px;
+   font-size: 3rem;
+   text-transform: uppercase;
+   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.64);
+}
+section.home > aside.faça-parte > h1 > strong {
+   font-size: 3.7rem;
+   color: var(--cor03);
+}
+section.home > aside.faça-parte > i {
+   font-size: 2.3rem;
+   cursor: pointer;
+   color: var(--cor03);
+}
+
+
+
+
+/* temp */
+img {
+   width: 10%;
 }
