@@ -100,6 +100,10 @@ section.home > aside.faça-parte > i {
    font-size: 2.3rem;
    cursor: pointer;
    color: var(--cor03);
+   transition: .5s;
+}
+section.home > aside.faça-parte > i:hover {
+   transform: scale(120%);
 }
 
 
