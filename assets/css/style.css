@@ -74,8 +74,9 @@ section.home > header > nav > ul > li,a {
    cursor: pointer;
    transition: .3s;
 }
-section.home > header > nav > ul > li:hover {
+section.home > header > nav > ul > li:hover, li:hover > a {
    transform: scale(110%);
+   color: var(--cor02);
 }
 section.home > aside.faça-parte {
    width: 100%;
@@ -91,10 +92,12 @@ section.home > aside.faça-parte > h1 {
    font-size: 3rem;
    text-transform: uppercase;
    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.64);
+   line-height: 1.2em;
 }
 section.home > aside.faça-parte > h1 > strong {
    font-size: 3.7rem;
    color: var(--cor03);
+   letter-spacing: 0.3rem;
 }
 section.home > aside.faça-parte > i {
    font-size: 2.3rem;
@@ -104,12 +107,5 @@ section.home > aside.faça-parte > i {
 }
 section.home > aside.faça-parte > i:hover {
    transform: scale(120%);
-}
-
-
-
-
-/* temp */
-img {
-   width: 10%;
+   color: var(--cor02);
 }
