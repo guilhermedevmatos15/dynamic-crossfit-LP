@@ -58,7 +58,7 @@ section.home > header {
    justify-content: center;
    align-items: center;
 }
-section.home > header > aside.image-logo {
+section.home > header > div.image-logo {
    width: 200px;
    height: 200px;
    padding: 20px 20px 40px 20px;
@@ -66,7 +66,7 @@ section.home > header > aside.image-logo {
    justify-content: center;
    align-items: center;
 }
-section.home > header > aside.image-logo > img {
+section.home > header > div.image-logo > img {
    width: 100%;
 }
 section.home > nav {
@@ -90,7 +90,7 @@ section.home > header > nav > ul > li:hover, li:hover > a {
    transform: scale(110%);
    color: var(--cor02);
 }
-section.home > aside.faça-parte {
+section.home > div.faca-parte {
    width: 100%;
    height: 200px;
    padding: 10px;
@@ -99,25 +99,25 @@ section.home > aside.faça-parte {
    justify-content: center;
    align-items: center;
 }
-section.home > aside.faça-parte > h1 {
+section.home > div.faca-parte > h1 {
    margin-bottom: 75px;
    font-size: 3rem;
    text-transform: uppercase;
    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.64);
    line-height: 1.2em;
 }
-section.home > aside.faça-parte > h1 > strong {
+section.home > div.faca-parte > h1 > strong {
    font-size: 3.7rem;
    color: var(--cor03);
    letter-spacing: 0.3rem;
 }
-section.home > aside.faça-parte i {
+section.home > div.faca-parte i {
    font-size: 2.5rem;
    cursor: pointer;
    color: var(--cor03);
    transition: .5s;
 }
-section.home > aside.faça-parte i:hover {
+section.home > div.faca-parte i:hover {
    transform: scale(120%);
    color: var(--cor02);
 }
@@ -133,20 +133,20 @@ section.venha-conhecer {
    align-items: center;
    gap: 30px;
 }
-section.venha-conhecer > aside.subtitle {
+section.venha-conhecer > div.subtitle {
    padding: 10px;
    margin-top: 50px;
    position: relative;
 }
-section.venha-conhecer > aside.subtitle > h2 {
+section.venha-conhecer > div.subtitle > h2 {
    font-size: 2.5rem;
    color: white;
    padding: 0px 5px 10px 5px;
 }
-section.venha-conhecer > aside.subtitle > h2 > strong {
+section.venha-conhecer > div.subtitle > h2 > strong {
    color: var(--cor01);
 }
-section.venha-conhecer > aside.subtitle > hr {
+section.venha-conhecer > div.subtitle > hr {
    width: 80%;
    border-style: solid;
    border-width: 1px;
@@ -157,7 +157,7 @@ section.venha-conhecer > aside.subtitle > hr {
    transform: translate(-50%, -50%);
    opacity: 80%;
 }
-section.venha-conhecer > aside.subtitle > hr.strong {
+section.venha-conhecer > div.subtitle > hr.strong {
    width: 20%;
    border-color: var(--cor04);
    position: absolute;
@@ -165,15 +165,15 @@ section.venha-conhecer > aside.subtitle > hr.strong {
    left: 50%;
    transform: translate(-50%, -50%);
 }
-section.venha-conhecer > aside.paragrafo {
+section.venha-conhecer > div.paragrafo {
    width: 40%;
    text-align: center;
    color: white;
 }
-section.venha-conhecer > aside.paragrafo > p > strong {
+section.venha-conhecer > div.paragrafo > p > strong {
    color: var(--cor01);
 }
-section.venha-conhecer > aside.images {
+section.venha-conhecer > div.images {
    width: 100%;
    display: flex;
    flex-direction: column;
@@ -181,65 +181,65 @@ section.venha-conhecer > aside.images {
    align-items: center;
    gap: 30px;
 }
-section.venha-conhecer > aside.images > div.first-line-images {
+section.venha-conhecer > div.images > div.first-line-images {
    width: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 0px;
 }
-section.venha-conhecer > aside.images > div.first-line-images > i {
+section.venha-conhecer > div.images > div.first-line-images > i {
    color: white;
    font-size: 2rem;
    cursor: pointer;
    transition: .3s;
 }
-section.venha-conhecer > aside.images > div.first-line-images > i:hover {
+section.venha-conhecer > div.images > div.first-line-images > i:hover {
    transform: scale(115%);
    color: var(--cor01);
 }
-section.venha-conhecer > aside.images > div.first-line-images > article {
+section.venha-conhecer > div.images > div.first-line-images > div {
    width: 30%;
    display: flex;
    justify-content: center;
    align-items: center;
 }
-section.venha-conhecer > aside.images > div.first-line-images > article > img {
+section.venha-conhecer > div.images > div.first-line-images > div > img {
    width: 60%;
    height: 100%;
    border-radius: 10px;
    transition: .3s;
    opacity: 50%;
 }
-section.venha-conhecer > aside.images > div.first-line-images > article > img:hover {
+section.venha-conhecer > div.images > div.first-line-images > div > img:hover {
    transform: scale(105%);
    opacity: 100%;
 }
 /* Manipulação com JS */
-section.venha-conhecer > aside.images > div.first-line-images > article > img.hidden {
+section.venha-conhecer > div.images > div.first-line-images > div > img.hidden {
    display: none;
 }
 
-section.venha-conhecer > aside.images > article.last-line-images {
+section.venha-conhecer > div.images > div.last-line-images {
    width: 40%;
    display: flex;
    justify-content: center;
    align-items: center;
    gap: 10px;
 }
-section.venha-conhecer > aside.images > article.last-line-images > img {
+section.venha-conhecer > div.images > div.last-line-images > img {
    width: 33.3%;
    cursor: pointer;
    border-radius: 5px;
 }
-section.venha-conhecer > aside.images > article.last-line-images > img:hover {
+section.venha-conhecer > div.images > div.last-line-images > img:hover {
    transform: scale(103%);
    transition: .4s;
 }
-section.venha-conhecer > aside.images > article.last-line-images > img[alt="aula experimental"] {
+section.venha-conhecer > div.images > div.last-line-images > img[alt="aula experimental"] {
    border: 1px solid var(--cor02);
 }
-section.venha-conhecer > aside.instagram {
+section.venha-conhecer > div.instagram {
    margin-top: 20px;
    color: white;
    text-transform: uppercase;
@@ -249,13 +249,13 @@ section.venha-conhecer > aside.instagram {
    align-items: center;
    gap: 10px;
 }
-section.venha-conhecer > aside.instagram > p > strong {
+section.venha-conhecer > div.instagram > p > strong {
    color: var(--cor02);
 }
-section.venha-conhecer > aside.instagram > img {
+section.venha-conhecer > div.instagram > img {
    width: 200px;
 }
-section.venha-conhecer > aside.instagram > div.images-instagram {
+section.venha-conhecer > div.instagram > div.images-instagram {
    padding: 20px;
    display: flex;
    justify-content: center;
@@ -264,7 +264,34 @@ section.venha-conhecer > aside.instagram > div.images-instagram {
    flex-wrap: wrap;
 }
 
-
+/* Seção Nathan */
+.contatos {
+   text-align: center; /* centraliza os elementos */
+   padding: 10px;
+}
+.contatos ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.contatos .social-icons {
+   color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 12px;
+   cursor: pointer;
+}
+.contatos .social-icons i:hover {
+   transform: scale(110%);
+   color: var(--cor05);
+}
+.contatos li {
+   margin: 20px;
+   display: inline-block;
+   font-family: "Montserrat", sans-serif;
+}
 
 /* temp */
 img {

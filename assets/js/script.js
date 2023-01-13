@@ -6,7 +6,7 @@ greaterThanIcon.addEventListener('click', moveImages);
 lessThanIcon.addEventListener('click', moveImages);
 
 function moveImages(evt) {
-   const imagesToCard = [...document.querySelectorAll('section.venha-conhecer > aside.images > div.first-line-images > article > img')];
+   const imagesToCard = [...document.querySelectorAll('section.venha-conhecer > div.images > div.first-line-images > div > img')];
    if (evt.target===lessThanIcon) {
       if (imagesToCard[0].className.includes('hidden') === false) {
          imagesToCard[0].classList.add('hidden');
